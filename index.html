@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper-search">
+      <form class="form-search">
+        <input type="text" placeholder="Search location..." class="search_location" autofocus />
+        <p class="tip-search">Search city name in english</p>
+      </form>
+    </div>
+
+    <div class="wrapper-weather isDay d-none">
+      <div class="content-wrapper"></div>
+      <div class="box-hours"></div>
+    </div>
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
